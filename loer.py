@@ -1,6 +1,6 @@
 from tkinter import *
 
-class Loer:
+class Loer():
     def __init__(self):
         window = Tk()
         window.title("Loer")
