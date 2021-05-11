@@ -3,9 +3,9 @@ from tkinter import *
 class Loer:
     def __init__(self):
         window = Tk()
-        window.title("Loan Calculator")
+        window.title("Loer")
         window.configure(background = "gray15")
-
+                
         Label(window, font='Helvetica 12 bold', bg = "gray10", fg = "gray99", text = "Annual Interest Rate").grid(row = 1, column = 1, sticky = W)
         Label(window, font='Helvetica 12 bold', bg = "gray10", fg = "gray99", text = "Number of Years").grid(row = 2, column = 1, sticky = W)
         Label(window, font='Helvetica 12 bold', bg = "gray10", fg = "gray99", text = "Loan Amount").grid(row = 3, column = 1, sticky = W)
